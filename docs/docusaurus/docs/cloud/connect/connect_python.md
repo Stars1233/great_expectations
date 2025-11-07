@@ -21,13 +21,13 @@ Learn how to use GX Cloud from a Python script or interpreter, such as a Jupyter
 
 ## Install GX
 
-1. Run the following command in an empty base directory inside a Python virtual environment:
+Run the following command in an empty base directory inside a Python virtual environment:
 
-    ```bash title="Terminal input"
-    pip install great_expectations
-    ```
+```bash title="Terminal input"
+pip install great_expectations
+```
 
-    It can take several minutes for the installation to complete.
+It can take several minutes for the installation to complete.
 
 ## Get your credentials
 
