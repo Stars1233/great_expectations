@@ -28,6 +28,7 @@ All of these Data Sources have the following limitations, regardless of your GX 
 
 Azure Blob Storage, BigQuery, Google Cloud Storage, Pandas, and Spark have the following additional limitations:
 - Data Asset metrics are not supported.
+- The [Data Health](/docs/cloud/overview/data_health) dashboard entity filter cannot detect the Data Asset’s columns.
 - You cannot use the UI to define a Batch for validating a time-based subset of your data. Use the GX Cloud API to [define a Batch](/docs/cloud/validations/run_validations.md).
 - When you add an Expectation, you cannot generate Expectations for [Anomaly Detection](/docs/cloud/expectations/expectations_overview.md#anomaly-detection). You can manually configure Anomaly Detection by adding Expectations with Dynamic Parameters or forecasted ranges.
 - Ad hoc Validations cannot be triggered through the GX Cloud UI. Use the GX Cloud API to [run an ad hoc Validation](/docs/cloud/validations/run_validations.md).
