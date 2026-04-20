@@ -903,6 +903,10 @@ MARKER_DEPENDENCY_MAP: Final[Mapping[str, TestDependencies]] = {
     "redshift": TestDependencies(
         requirement_files=("reqs/requirements-dev-redshift.txt",),
     ),
+    "singlestore": TestDependencies(
+        ("reqs/requirements-dev-singlestore.txt",),
+        services=("singlestore",),
+    ),
     "snowflake": TestDependencies(
         requirement_files=("reqs/requirements-dev-snowflake.txt",),
     ),
